@@ -1,11 +1,26 @@
 
 .main-container {
+    padding-top: 10%;
     display: flex;
     justify-content: center;
+    height: 100vh;
+    width: 100vw;
 }
 
-#myCanvas {
-    background-color: blue;
-    position: absolute;
-    z-index: -1;
-}   
+.canvas-box {
+    height: 800px;
+    width: 1000px;
+}
+
+// canvas {
+//     background-color: blue;
+//     width: inherit;
+//     height: inherit;
+//     // padding: 0;
+//     // margin: auto;
+//     // display: block;
+//     // width: 800px;
+//     position: absolute;
+//     z-index: -1;
+//     opacity: .01;
+// }   

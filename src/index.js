@@ -49,7 +49,7 @@ inputLyricsEle.addEventListener("input", ()=>{
 
 
 const renderVerse = (v)=>{
-  console.log(v);
+  // console.log(v);
   lyricShowEle.innerHTML = ""; //starts our lyric showing nothing (we will append to it in this function individual span elements that can have individual classNames)
   
 
@@ -63,6 +63,7 @@ const renderVerse = (v)=>{
 }
 
 renderVerse(verseIdx);
+
 
 
 

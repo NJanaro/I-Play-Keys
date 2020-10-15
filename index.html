@@ -9,13 +9,20 @@
   </head>
 
   <body>
-    <!-- <canvas id="myCanvas"></canvas> -->
+    
 
     <div class="main-container">
-      <canvas id="myCanvas" ></canvas>
-      <div class="show-lyrics" id="showLyrics"></div>
+      <div class="canvas-box">
+        <canvas id="myCanvas" ></canvas>
+        <div class="lyrics">
+          <div class="show-lyrics" id="showLyrics"></div>
+          <textarea id="inputLyrics" ></textarea>
+        </div>
+      </div>
+    </div>
 
-      <textarea id="inputLyrics" autofocus></textarea>
+    <div style="display:none;">
+      <img src="./src/images/Piano_man.png" id="piano-man" alt="Piano-man-Img">
     </div>
 
     <script src="./dist/main.js"></script>

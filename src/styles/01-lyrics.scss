@@ -11,3 +11,24 @@
     text-decoration: none;
     color: black;
 }
+
+span {
+    font-family: sans-serif;
+    font-size: 14;
+}
+
+.lyrics {
+    height: inherit;
+    width: inherit;
+    text-align: center;
+    font-size: 28px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+textarea {
+    height: 50px;
+    resize: none;
+    margin:15px 40px 25px 40px;
+}
