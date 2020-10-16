@@ -2,3 +2,28 @@
 @import './00-canvas.scss';
 @import './01-lyrics.scss';
 
+body {
+    background-color: rgb(35,4,68);
+}
+
+.modal {
+    display:none;
+    position:fixed;
+    z-index: 4;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(121, 0, 0, 0.363);
+}
+
+.modal-content {
+    background-color: rgb(182, 19, 60);
+    margin: 15% auto;
+    padding: 20px;
+    border-right: 1px solid indianred;
+    border-left: 1px solid indianred;
+    border-radius: 8px;
+
+}
