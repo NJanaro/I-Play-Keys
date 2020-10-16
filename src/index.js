@@ -1,6 +1,7 @@
 import "./styles/index.scss";
 import "./scripts/canvas";
 import * as Lyrics from './scripts/lyrics';
+import {grow, shrink} from './scripts/canvas';
 
 // const getRandomInt = max=>{
 //   return Math.floor(Math.random() * Math.floor(max));
@@ -23,20 +24,25 @@ inputLyricsEle.addEventListener("input", ()=>{
     const inputValue = inputLyricsEle.value.split(""); //turns input from user into an array to loop through chars to check for accuracy 
 
     let correct = true;
-
-    lyricsArray.forEach((lyricSpan, idx)=>{
+    let growth = false;
+    lyricsArray.forEach(function(lyricSpan, idx){
       // let lyricsChar = lyricSpan[idx];
       let inputChar = inputValue[idx];
       if (inputChar == null){
         lyricSpan.className = "neither";
         correct = false;
-      }else if (inputChar === lyricSpan.innerText){ //if statement checks imput to lyrics and changes classname for individual
+      }else if (inputChar == lyricSpan.innerText){ //if statement checks imput to lyrics and changes classname for individual
         lyricSpan.className = "correct";
+        console.log("grow");
+        growth = true;
       }else{
         lyricSpan.className = "incorrect";
         correct = false;
+        growth = false;
       }
+      growth ? grow() : shrink();
     })
+    
 
     if (correct && verseIdx < verse.length - 1){
       verseIdx+=1
@@ -46,6 +52,12 @@ inputLyricsEle.addEventListener("input", ()=>{
     }
 })
 
+const myShrink = ()=>{
+  shrink();
+}
+const myGrow = ()=>{
+  grow();
+}
 
 
 const renderVerse = (v)=>{

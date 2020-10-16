@@ -8,8 +8,22 @@
 }
 
 .canvas-box {
-    height: 800px;
-    width: 1000px;
+    // position: absolute;
+    height: 1000px;
+    width: 1200px;
+    z-index: 1;
+    background-color: black ;
+
+}
+
+canvas {
+    position: absolute;
+    z-index: -1;
+}
+
+input {
+    position: absolute;
+    z-index: 1;
 }
 
 // canvas {

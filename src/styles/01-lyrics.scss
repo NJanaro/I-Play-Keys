@@ -9,12 +9,13 @@
 
 .neither {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 span {
     font-family: sans-serif;
     font-size: 14;
+    color: white;
 }
 
 .lyrics {
@@ -31,4 +32,5 @@ textarea {
     height: 50px;
     resize: none;
     margin:15px 40px 25px 40px;
+    z-index: 5;
 }
