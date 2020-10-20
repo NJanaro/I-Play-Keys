@@ -1,7 +1,7 @@
 import "./styles/index.scss";
 import "./scripts/canvas";
 import * as Lyrics from './scripts/lyrics';
-import {grow, shrink} from './scripts/canvas';
+import {grow, shrink, changePianoMan} from './scripts/canvas';
 
 // const getRandomInt = max=>{
 //   return Math.floor(Math.random() * Math.floor(max));
@@ -19,7 +19,7 @@ const inputLyricsEle = document.getElementById("inputLyrics");
 
 inputLyricsEle.addEventListener("input", ()=>{
   
-    
+    changePianoMan();
     const lyricsArray = lyricShowEle.querySelectorAll("span"); //creates a NodeList of all the chars that were turned into spans in our render lyrics method. NodeList can be iterated through like an array to check against our inputValue
     const inputValue = inputLyricsEle.value.split(""); //turns input from user into an array to loop through chars to check for accuracy 
 

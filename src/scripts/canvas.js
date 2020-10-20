@@ -1,9 +1,26 @@
 
-import "../images/Piano_man.png";
+import "../images/piano.png";
+import "../images/stage.png";
+import "../images/pianoManLeft.png";
+import "../images/pianoManRight.png";
+
+
 // import "../styles/00-canvas.scss";
 
-let img = document.getElementById("piano-man");
+// let pianoMan = document.getElementById("piano-man");
 let r = 400;
+let pianoMan = pianoManRight;
+const pianoManLeft = new Image();
+pianoManLeft.src="src/images/pianoManLeft.png";
+
+const pianoManRight = new Image();
+pianoManRight.src="src/images/pianoManRight.png";
+
+const stage = new Image();
+stage.src="src/images/stage.png";
+
+const piano = new Image();
+piano.src="src/images/piano.png";
 
 const draw = ()=>{   
     const canvas = document.getElementById("myCanvas");
@@ -11,15 +28,30 @@ const draw = ()=>{
     canvas.width = "1200";
     canvas.height = "1000";
     canvas.position = "absolute";
-     
-    img = new Image();
-    img.onload=unpaint;
-    img.src="src/images/Piano_man_big.png";
-
+    
+    
+    const images = [pianoManLeft, pianoManRight, piano, stage];
+    
+    let imagesLoaded = 0;
+    // console.log(imagesLoaded);
+    for (let i = 0; i < images.length; i++) {
+        images[i].onload = function(){
+            imagesLoaded++;
+            console.log(imagesLoaded);
+            console.log(images.length);
+            if(imagesLoaded == images.length)unpaint();
+        }
+        
+    }
+    
+    
+    
     function unpaint(){      
         if(r <= 0) {
             if(!alert("you lose")) window.location.reload();
         }
+        
+        
         ctx.beginPath();
         ctx.save();
         ctx.fillRect(0,0,1200, 1000);
@@ -29,7 +61,9 @@ const draw = ()=>{
         ctx.clip();
         ctx.fillStyle = "red";
         ctx.fillRect(0,0,1200, 1000);
-        ctx.drawImage(img,529.5,406);
+        ctx.drawImage(stage, 0, 150);
+        ctx.drawImage(piano, 529.5, 406);
+        ctx.drawImage(pianoManRight,565.5,402);
         ctx.restore();
         r -= .25; 
         if(r <= 64) {
@@ -39,8 +73,8 @@ const draw = ()=>{
             requestAnimationFrame(unpaint);
         }
     }
-
-    unpaint();
+    
+    // unpaint();
 }
 
 export function grow(){
@@ -49,6 +83,10 @@ export function grow(){
 
 export function shrink(){
     r-=.1;
+}
+
+export function changePianoMan(){
+    pianoMan == pianoManLeft ? pianoMan = pianoManRight : pianoMan = pianoManLeft;
 }
 
 draw();
