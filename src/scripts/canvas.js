@@ -9,7 +9,7 @@ import "../images/pianoManRight.png";
 
 // let pianoMan = document.getElementById("piano-man");
 let r = 400;
-let pianoMan = pianoManRight;
+let right = true;
 const pianoManLeft = new Image();
 pianoManLeft.src="src/images/pianoManLeft.png";
 
@@ -22,7 +22,7 @@ stage.src="src/images/stage.png";
 const piano = new Image();
 piano.src="src/images/piano.png";
 
-const draw = ()=>{   
+export const draw = ()=>{   
     const canvas = document.getElementById("myCanvas");
     const ctx = canvas.getContext("2d");
     canvas.width = "1200";
@@ -50,8 +50,6 @@ const draw = ()=>{
         if(r <= 0) {
             if(!alert("you lose")) window.location.reload();
         }
-        
-        
         ctx.beginPath();
         ctx.save();
         ctx.fillRect(0,0,1200, 1000);
@@ -63,7 +61,11 @@ const draw = ()=>{
         ctx.fillRect(0,0,1200, 1000);
         ctx.drawImage(stage, 0, 150);
         ctx.drawImage(piano, 529.5, 406);
-        ctx.drawImage(pianoManRight,565.5,402);
+        if (right){
+            ctx.drawImage(pianoManRight,565.5,402);
+        }else{
+            ctx.drawImage(pianoManLeft,565.5,402);
+        }
         ctx.restore();
         r -= .25; 
         if(r <= 64) {
@@ -86,7 +88,6 @@ export function shrink(){
 }
 
 export function changePianoMan(){
-    pianoMan == pianoManLeft ? pianoMan = pianoManRight : pianoMan = pianoManLeft;
+    right ? right = false : right = true;
 }
 
-draw();
