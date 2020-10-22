@@ -1,14 +1,26 @@
 import "./styles/index.scss";
 import "./scripts/canvas";
 import * as Lyrics from './scripts/lyrics';
-import {grow, shrink, changePianoMan, draw} from './scripts/canvas';
+import {grow, shrink, changePianoMan, starter, draw} from './scripts/canvas';
 
 // const getRandomInt = max=>{
 //   return Math.floor(Math.random() * Math.floor(max));
 // }
 const lyrics = [Lyrics.wingedWickedThings, Lyrics.theMendingOfTheGown];
 
-draw();
+
+const modal = document.getElementById("modalBody")
+
+window.addEventListener('load', (e)=> {
+  modal.style.display = "block";
+})
+
+document.getElementById("start").addEventListener("click", () => {
+  starter();
+  draw();
+  modal.style.display = "none";
+
+})
 
 let song = lyrics[ Math.floor(Math.random() * Math.floor(2))];
 let verse = song.split("newLine\n");

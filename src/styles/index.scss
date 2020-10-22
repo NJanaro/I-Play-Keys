@@ -6,8 +6,12 @@ body {
     background-color: rgb(35,4,68);
 }
 
+
+#modalBody {
+    display: none;
+}
+
 .modal {
-    display:none;
     position:fixed;
     z-index: 4;
     left: 0;

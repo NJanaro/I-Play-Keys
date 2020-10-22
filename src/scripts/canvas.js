@@ -8,6 +8,7 @@ import "../images/pianoManRight.png";
 // import "../styles/00-canvas.scss";
 
 // let pianoMan = document.getElementById("piano-man");
+let start = false;
 let r = 400;
 let right = true;
 const pianoManLeft = new Image();
@@ -71,16 +72,16 @@ export const draw = ()=>{
         if(r <= 64) {
             r = 400;
             if(!alert("you lose")) window.location.reload();
-        }else{  
+        }else if (start){  
             requestAnimationFrame(unpaint);
         }
     }
     
-    // unpaint();
+    unpaint();
 }
 
 export function grow(){
-    r+=.1;
+    if (r < 600) r+=.1;
 }
 
 export function shrink(){
@@ -91,3 +92,8 @@ export function changePianoMan(){
     right ? right = false : right = true;
 }
 
+export function starter(){
+    start = true;
+}
+
+draw();
