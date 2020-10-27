@@ -9,6 +9,7 @@ newLine\n\
 He made an enemy, then\n\
 He made an enemy of all of you\n\
 It's him, not you\n\
+newLine\n\
 It's a little red sea- let the miracle worker go free\n\
 See the paddle go up and the paddle go down\n\
 And the paddle go up and the paddle go down\n\
@@ -19,6 +20,7 @@ He was a man of many nations\n\
 Had a hundred souls and a hundred to go\n\
 He was a man of many nations\n\
 Two hearts, two hands, it's a slippery slope\n\
+newLine\n\
 He had a fear of being naked\n\
 But you're any other man in another man's clothes\n\
 He was a man of many nations\n\
@@ -28,6 +30,7 @@ He wrote a book about the Bible\n\
 And he wrote a book about men in the sky\n\
 He wrote a book about the smell of winter\n\
 Then two, a little less simple to decipher\n\
+newLine\n\
 Saying, “I am the water at the foot of the palms\n\
 Oh, I'm sand and wind and a shitty mirage\n\
 But either way, I'm a man of many nations!”\n\
@@ -41,6 +44,7 @@ She had a name, she had a spirit\n\
 She had a line in the play, if you waited to hear it\n\
 But a master of disguises\n\
 Her demise was her design, they said\n\
+newLine\n\
 Was it the mending of the gown\n\
 Or the running, and the running, and the running it around?\n\
 newLine\n\
@@ -48,6 +52,7 @@ She said, 'My name and my spirit are both corrupt\n\
 And if you hold me close, you gotta hold me up'\n\
 It was the tender mending of this slender gown\n\
 That brought me bending to the ground\n\
+newLine\n\
 Now you'll wear any old thing\n\
 Oh, you'll wear any old thing\n\
 newLine\n\
@@ -55,10 +60,12 @@ So she wrapped herself in swaddling\n\
 That the fever deviated to a broken wing\n\
 It's an act, I think she's just pretending\n\
 It's an act, I think, she's just pretending\n\
+newLine\n\
 If you burn the virgin flags, then I will shake (Shake!)\n\
 As the heat waves in the sand\n\
 This one's for Maggie (This one's for Maggie!)\n\
 This one's for Sam (This one's for Sam!)\n\
+newLine\n\
 This one's for Maggie (This one's for Maggie!)\n\
 This one's for Sam (This one's for Sam!)\n\
 Or any other random spirit lover busted\n\
@@ -77,6 +84,7 @@ newLine\n\
 It was the tender mending of this slender gown\n\
 That brought me bending to the ground\n\
 But this ship was built to go down\n\
+newLine\n\
 See the paddle go up and the paddle go down!\n\
 And the paddle go up and the paddle go down!\n\
 And the paddle go up and the paddle go down!\n\
