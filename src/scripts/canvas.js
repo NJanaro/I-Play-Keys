@@ -81,11 +81,11 @@ export const draw = ()=>{
 }
 
 export function grow(){
-    if (r < 600) r+=.1;
+    if (r < 600) r+=10;
 }
 
 export function shrink(){
-    r-=.1;
+    r-=1;
 }
 
 export function changePianoMan(){

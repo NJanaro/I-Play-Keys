@@ -9,6 +9,8 @@ body {
 
 #modalBody {
     display: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .modal {
@@ -24,7 +26,8 @@ body {
 
 .modal-content {
     background-color: rgb(182, 19, 60);
-    margin: 15% auto;
+    width: 500px;
+    // margin: 0 auto;
     padding: 20px;
     border-right: 1px solid indianred;
     border-left: 1px solid indianred;

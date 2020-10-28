@@ -3,16 +3,13 @@ import "./scripts/canvas";
 import * as Lyrics from './scripts/lyrics';
 import {grow, shrink, changePianoMan, starter, draw} from './scripts/canvas';
 
-// const getRandomInt = max=>{
-//   return Math.floor(Math.random() * Math.floor(max));
-// }
 const lyrics = [Lyrics.wingedWickedThings, Lyrics.theMendingOfTheGown];
 
 
 const modal = document.getElementById("modalBody")
 
 window.addEventListener('load', (e)=> {
-  modal.style.display = "block";
+  modal.style.display = "flex";
 })
 
 document.getElementById("start").addEventListener("click", () => {
@@ -29,6 +26,7 @@ let verseIdx = 0;
 const lyricShowEle =document.getElementById("showLyrics");
 const inputLyricsEle = document.getElementById("inputLyrics");
 
+let lastCorrect = 0;
 
 inputLyricsEle.addEventListener("input", ()=>{
   
@@ -44,26 +42,34 @@ inputLyricsEle.addEventListener("input", ()=>{
       if (inputChar == null){
         lyricSpan.className = "neither";
         correct = false;
-      }else if (inputChar == lyricSpan.innerText){ //if statement checks imput to lyrics and changes classname for individual
+      }else if (inputChar == lyricSpan.innerText){ //if statement checks imput to lyrics and changes classname and grow command var
         lyricSpan.className = "correct";
-        console.log("grow");
-        growth = true;
+        if (lastCorrect === inputValue.length - 1){
+          lastCorrect++;
+          growth = true;
+        }
+        console.log(lastCorrect);
+        console.log(inputValue.length - 1);
       }else{
         lyricSpan.className = "incorrect";
         correct = false;
         growth = false;
       }
-      growth ? grow() : shrink();
+      // growth ? grow() : shrink(); // grows or shrinks light based on users input
     })
     
+    if (growth) grow();
 
     if (correct && verseIdx < verse.length - 1){
-      verseIdx+=1
+      verseIdx++;
       renderVerse(verseIdx);
+      lastCorrect = 0;
     }else if(verseIdx >= verse.length - 1){
       alert("You Win!");
     }
 })
+
+
 
 const myShrink = ()=>{
   shrink();
