@@ -25,12 +25,62 @@ body {
 }
 
 .modal-content {
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.046),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.052),
+        0 12.5px 10px rgba(0, 0, 0, 0.068),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.079),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.094),
+        0 100px 80px rgba(0, 0, 0, 0.19)
+    ;
     background-color: rgb(182, 19, 60);
     width: 500px;
+    text-align: center;
     // margin: 0 auto;
     padding: 20px;
     border-right: 1px solid indianred;
     border-left: 1px solid indianred;
     border-radius: 8px;
+}
 
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Special Elite', cursive;
+    text-decoration: underline;
+    margin: 3%;;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: 'Open sans Condensed', sans-serif;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+h3 {
+    font-family: 'Open sans Condensed', sans-serif;
+    margin: 3%;
+}
+
+p {
+    font-family: 'Open sans Condensed', sans-serif;
+    margin: 3%;
+    padding-bottom: 3%;
+    font-size: larger;
+}
+
+#start {
+    font-weight: bold;
+    padding: 8px 28px;
+    border: solid 2px rgb(109, 3, 3);
+    border-radius: 8px;
+    background-color: maroon;
+    transition: .15s;
+}
+
+#start:hover {
+    background-color: rgb(109, 3, 3);
+    border-color: rgb(59, 0, 0);
+    cursor: pointer;    
 }

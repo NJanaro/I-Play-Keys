@@ -58,7 +58,10 @@ export const draw = ()=>{
         
         ctx.arc(623, 478, r, 0, 2*Math.PI);
         ctx.clip();
-        ctx.fillStyle = "red";
+        const grd = ctx.createRadialGradient(623,478,200,623,478,600);
+        grd.addColorStop(0, "black");
+        grd.addColorStop(1,"red");
+        ctx.fillStyle = grd;
         ctx.fillRect(0,0,1200, 1000);
         ctx.drawImage(stage, 0, 150);
         ctx.drawImage(piano, 529.5, 406);
