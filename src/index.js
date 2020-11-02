@@ -16,6 +16,8 @@ document.getElementById("start").addEventListener("click", () => {
   starter();
   draw();
   modal.style.display = "none";
+renderVerse(verseIdx);
+
 
 })
 
@@ -93,7 +95,7 @@ const renderVerse = (v)=>{
   inputLyricsEle.value = "";
 }
 
-renderVerse(verseIdx);
+
 
 
 
