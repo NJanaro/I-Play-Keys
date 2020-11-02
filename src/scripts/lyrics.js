@@ -99,10 +99,12 @@ newLine\n\
 So you say it's some Shroud of Turin\n\
 And the sun wore it white and the earth wore it thin\n\
 Or the son wore it white and his faith wore it thin\n\
+newLine\n\
 Unraveling heavenward\n\
 It's saddled to tiny birds\n\
 Or other such winged things\n\
 Either way they are struggling\n\
+newLine\n\
 Either way they are miniature\n\
 Either way they're invisible\n\
 But either way they're confused\n\
@@ -111,6 +113,7 @@ newLine\n\
 And the pattern of flight is chaotic and blind\n\
 But it's right cause chaos is yours and it's mine\n\
 And chaos is luck and luck: love and love: blind\n\
+newLine\n\
 The pattern of flight is chaotic and blind\n\
 But it's right cause chaos is yours and chaos is mine, mine, mine\n\
 And chaos is love and they say 'love is blind'\n\
@@ -119,6 +122,7 @@ But they're subject to hating us\n\
 Oh, just like the rest of us\n\
 Oh, but just like the best of us\n\
 They need the rest of us to stay alive\n\
+newLine\n\
 So thats not where confusion lies\n\
 That's not where an allusion to the fact that the truth\n\
 Is just smoke in your eyes does lie\n\
