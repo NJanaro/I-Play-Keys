@@ -3,10 +3,13 @@ import "./scripts/canvas";
 import * as Lyrics from './scripts/lyrics';
 import {grow, shrink, changePianoMan, starter, draw} from './scripts/canvas';
 
-const lyrics = [Lyrics.wingedWickedThings, Lyrics.theMendingOfTheGown];
-
-
-const modal = document.getElementById("modalBody")
+const lyrics = [Lyrics.t01,
+                Lyrics.t02,
+                Lyrics.t03,
+                Lyrics.t04
+              ];
+const audio = document.getElementById("01");
+const modal = document.getElementById("modalBody");
 
 window.addEventListener('load', (e)=> {
   modal.style.display = "flex";
@@ -16,12 +19,13 @@ document.getElementById("start").addEventListener("click", () => {
   starter();
   draw();
   modal.style.display = "none";
+  audio.play();
 renderVerse(verseIdx);
 
 
 })
 
-let song = lyrics[ Math.floor(Math.random() * Math.floor(2))];
+let song = lyrics[ Math.floor(Math.random() * Math.floor(lyrics.length))];
 let verse = song.split("newLine\n");
 let verseIdx = 0;
 
@@ -94,6 +98,7 @@ const renderVerse = (v)=>{
 
   inputLyricsEle.value = "";
 }
+
 
 
 

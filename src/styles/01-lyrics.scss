@@ -23,13 +23,22 @@ span {
 }
 
 .lyrics {
-    height: inherit;
+    height: 1100px;
     width: inherit;
     text-align: center;
     font-size: 32px;
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    // justify-content: space-between;
+    align-items: center;
+    box-shadow: 
+        0 3px 2.2px rgba(0, 0, 0, 0.046),
+        0 7px 5.3px rgba(0, 0, 0, 0.052),
+        0 13px 10px rgba(0, 0, 0, 0.068),
+        0 25px 17.9px rgba(0, 0, 0, 0.079),
+        0 40px 33.4px rgba(0, 0, 0, 0.094),
+        0 60px 75px rgba(0, 0, 0, 0.50)
+    ;
 }
 
 textarea {
@@ -40,7 +49,10 @@ textarea {
     font-size: 24px;
     text-align: center;
     height: 125px;
+    width: 400px;
     resize: none;
-    margin:15px 250px 25px 250px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    // margin:15px 250px 25px 250px;
     z-index: 5;
 }

@@ -3,29 +3,20 @@
     padding-top: 10%;
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 100vw;
 }
 
 .canvas-box {
     // position: absolute;
-    height: 1000px;
+    height: 1100px;
     width: 1200px;
     z-index: 1;
     background-color: black ;
 
 }
 
-.lyrics {
-    box-shadow: 
-        0 3px 2.2px rgba(0, 0, 0, 0.046),
-        0 7px 5.3px rgba(0, 0, 0, 0.052),
-        0 13px 10px rgba(0, 0, 0, 0.068),
-        0 25px 17.9px rgba(0, 0, 0, 0.079),
-        0 40px 33.4px rgba(0, 0, 0, 0.094),
-        0 60px 75px rgba(0, 0, 0, 0.50)
-    ;
-}
 
 canvas {
     position: absolute;

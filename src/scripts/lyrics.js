@@ -1,7 +1,8 @@
-export const theMendingOfTheGown = 
+export const t01 = 
 "He made an enemy, then\n\
 He made an enemy of all of you\n\
 It's him, not you\n\
+newLine\n\
 You never heard it from me\n\
 But there's a breach in the hull\n\
 Where the truth and the water's too deep to prove\n\
@@ -13,6 +14,7 @@ newLine\n\
 It's a little red sea- let the miracle worker go free\n\
 See the paddle go up and the paddle go down\n\
 And the paddle go up and the paddle go down\n\
+newLine\n\
 And the paddle go up and the paddle go down\n\
 And the man falls in the sea\n\
 newLine\n\
@@ -37,6 +39,7 @@ But either way, I'm a man of many nations!”\n\
 newLine\n\
 Was it the mending of the gown\n\
 Or the running it around?\n\
+newLine\n\
 Was it the mending of the gown\n\
 Or the running and the running it around?\n\
 newLine\n\
@@ -50,6 +53,7 @@ Or the running, and the running, and the running it around?\n\
 newLine\n\
 She said, 'My name and my spirit are both corrupt\n\
 And if you hold me close, you gotta hold me up'\n\
+newLine\n\
 It was the tender mending of this slender gown\n\
 That brought me bending to the ground\n\
 newLine\n\
@@ -58,16 +62,19 @@ Oh, you'll wear any old thing\n\
 newLine\n\
 So she wrapped herself in swaddling\n\
 That the fever deviated to a broken wing\n\
+newLine\n\
 It's an act, I think she's just pretending\n\
 It's an act, I think, she's just pretending\n\
 newLine\n\
 If you burn the virgin flags, then I will shake (Shake!)\n\
 As the heat waves in the sand\n\
+newLine\n\
 This one's for Maggie (This one's for Maggie!)\n\
 This one's for Sam (This one's for Sam!)\n\
 newLine\n\
 This one's for Maggie (This one's for Maggie!)\n\
 This one's for Sam (This one's for Sam!)\n\
+newLine\n\
 Or any other random spirit lover busted\n\
 I have lusted after you\n\
 newLine\n\
@@ -77,6 +84,7 @@ The way bloodsuckers do!\n\
 newLine\n\
 Was it the mending of the gown\n\
 Or the running it around?\n\
+newLine\n\
 Was it the mending of the gown\n\
 Or the running, and the running\n\
 And the running, and the running it around?\n\
@@ -87,10 +95,94 @@ But this ship was built to go down\n\
 newLine\n\
 See the paddle go up and the paddle go down!\n\
 And the paddle go up and the paddle go down!\n\
+newLine\n\
 And the paddle go up and the paddle go down!\n\
 And the paddle go up and the paddle go down!"
 
-export const wingedWickedThings = 
+export const t02 =
+"Would you say that you wish you were worse?\n\
+Would you say that you wish you were worse than you are?\n\
+See, you made up a list of your luckiest stars\n\
+And you made me familiar to you in the dark\n\
+When you said that you wish you were worse than you are\n\
+newLine\n\
+Hey you with the gold which you keep or which keeps you in your place\n\
+Do you recoil from it's jealous green and copper taste?\n\
+Oh, do you like to dance with it hanging like some hula dress so lightly off your waist?\n\
+newLine\n\
+Was it magic or Midas that touched you?\n\
+And by magic, I mean trickery and by Midas, I mean faith\n\
+By magic, I mean trickery and by Midas, I mean faith\n\
+newLine\n\
+The tricksters speaks of trickery, is your worth the work of the Midas touch?\n\
+Do you close your eyes while you're dancing, the same you close your eyes in your lover's clutches?\n\
+How dare I speak of trickery, I am not bestowed with the Midas touch\n\
+newLine\n\
+I don't close my eyes while I'm dancing the same way I close my eyes in my lover's clutches\n\
+How dare I speak of trickery, when the wild things singing are pulling their sham?\n\
+You can follow the lead of the jackal to see where I am\n\
+newLine\n\
+You can follow the lead of the jackal who waits for the kill to be made by a mightier hand\n\
+You made up a list of your luckiest stars, and you made me familiar to you in the dark\n\
+newLine\n\
+You made up a list of your luckiest stars, and you made me familiar to you in the dark\n\
+And you made me familiar to you in the dark, when you said that you wish you were worse than you are\n\
+newLine\n\
+And you made up a list of your luckiest stars, and you made me familiar to you in the dark\n\
+And you made me familiar to you in the dark, when you said that you wish you were worse than you are\n\
+newLine\n\
+And I follow the lead of the jackal to see where you are"
+
+export const t03 = 
+"You're the one who ran in the wild ‘cause you're the one the wild called\n\
+And you're the one who followed the child to save the sun from how it falls\n\
+newLine\n\
+You're the one who had knives set aside for the throats of hunters\n\
+But they tricked you with a trinket and a name\n\
+newLine\n\
+And I'm the one who sat at your capture and I'm the one who whispered low\n\
+That's the one who followed the child to save the son and look it's starting to snow!\n\
+newLine\n\
+You're the one who's riding around on a leopard\n\
+You're the one who's throwing his shit in the air!\n\
+newLine\n\
+You're the one whose wild hide will weather\n\
+In the weathering days to a leather\n\
+Made for princes to lay their princely heads of hair!\n\
+newLine\n\
+Upon the end of your feral days, upon the end of your feral days\n\
+Upon the end of your feral days oh-oh-oh-oh-oooooooooh\n\
+newLine\n\
+You're the one who ran in the wild a virgin to a name\n\
+And you're the one who lived off a forsaken land\n\
+I'm the one who sat at your capture\n\
+And let the snow fall on this whispering rapture\n\
+And you're the one who's kissing your captor's hands\n\
+newLine\n\
+Well shit, I know we're all growing old but where there's a will, there is a way, so way to go\n\
+Say goodbye to your feral days, say goodbye to your feral days, say-ay goodbye-aye-aye-aye-aaaaaye\n\
+newLine\n\
+Cause you're the one who's riding around on a leopard ba-da-dum\n\
+You're the one who's throwing dead birds in the air\n\
+And you're the one whose wild hide will weather\n\
+In the weathering days to a leather\n\
+Made soft so princes can lay down their princely white heads of hair!\n\
+newLine\n\
+So say goodbye\n\
+Say goodbye to your feral days\n\
+Say-ay goodbye-aye-aye-aye-aye\n\
+newLine\n\
+Your highness is holding your chains\n\
+Your highness is holding your chains\n\
+Your highness is holding your chains\n\
+Your highness is holding your chains\n\
+Your highness is holding your chains\n\
+Your highness is holding your chains\n\
+Your highness is holding your chains\n\
+Your highness is holding your chains"
+
+
+export const t04 = 
 "Well I say it's just smoke\n\
 So you say it's the hair of ghosts\n\
 So I say it's the white hair of Poseidon\n\
