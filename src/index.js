@@ -3,6 +3,7 @@ import "./scripts/canvas";
 import * as Lyrics from './scripts/lyrics';
 import {grow, shrink, changePianoMan, starter, draw} from './scripts/canvas';
 
+
 const lyrics = [Lyrics.t01,
                 Lyrics.t02,
                 Lyrics.t03,

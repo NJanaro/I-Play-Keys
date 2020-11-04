@@ -3,7 +3,7 @@
 @import './01-lyrics.scss';
 
 body {
-    background-size: 100% 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -83,4 +83,17 @@ p {
     background-color: rgb(109, 3, 3);
     border-color: rgb(59, 0, 0);
     cursor: pointer;    
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.icon {
+    display:block;
+    background-repeat: no-repeat;
+    background-size: 64px 64px;
+    width: 64px;
+    height: 64px;
+    padding: 20px;
 }

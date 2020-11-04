@@ -29,7 +29,7 @@ export const draw = ()=>{
     canvas.width = "1200";
     canvas.height = "1000";
     canvas.position = "absolute";
-    
+    ctx.scale(.75,.75);
     
     const images = [pianoManLeft, pianoManRight, piano, stage];
     
@@ -53,7 +53,7 @@ export const draw = ()=>{
         }
         ctx.beginPath();
         ctx.save();
-        ctx.fillRect(0,0,1200, 1000);
+        ctx.fillRect(0,0,1200, 1100);
         ctx.fillStyle = "black";
         
         ctx.arc(623, 478, r, 0, 2*Math.PI);
@@ -71,7 +71,7 @@ export const draw = ()=>{
             ctx.drawImage(pianoManLeft,565.5,402);
         }
         ctx.restore();
-        r -= .25; 
+        // r -= .25; 
         if(r <= 64) {
             r = 400;
             if(!alert("you lose")) window.location.reload();
