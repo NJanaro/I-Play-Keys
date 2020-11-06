@@ -71,7 +71,7 @@ export const draw = ()=>{
             ctx.drawImage(pianoManLeft,565.5,402);
         }
         ctx.restore();
-        // r -= .25; 
+        r -= .25; 
         if(r <= 64) {
             r = 400;
             if(!alert("you lose")) window.location.reload();
