@@ -4,12 +4,19 @@ import * as Lyrics from './scripts/lyrics';
 import {grow, shrink, changePianoMan, starter, draw} from './scripts/canvas';
 
 
-const lyrics = [Lyrics.t01,
-                Lyrics.t02,
-                Lyrics.t03,
-                Lyrics.t04
-              ];
-const audio = document.getElementById("01");
+
+
+const lyrics = 
+  [
+    Lyrics.t01,
+    Lyrics.t02,
+    Lyrics.t03,
+    Lyrics.t04
+  ];
+
+let songIdx = Math.floor(Math.random() * Math.floor(2));
+const audio = document.getElementById(songIdx);
+console.log(songIdx);
 const modal = document.getElementById("modalBody");
 
 window.addEventListener('load', (e)=> {
@@ -22,11 +29,9 @@ document.getElementById("start").addEventListener("click", () => {
   modal.style.display = "none";
   audio.play();
 renderVerse(verseIdx);
-
-
 })
 
-let song = lyrics[ Math.floor(Math.random() * Math.floor(lyrics.length))];
+let song = lyrics[songIdx];
 let verse = song.split("newLine\n");
 let verseIdx = 0;
 

@@ -18,8 +18,8 @@
           <h2>Ever wish you could play piano and sing like Spencer Krug?</h2> 
           <h3>Don't we all...</h3>
           <p>Type the lyrics on the screen to keep the lights on. Don't let the darkness consume you!</p>
+          <span id="start">Start</span>
         </div>
-        <span id="start">Start</span>
       </div>
       
     </div>
@@ -49,21 +49,32 @@
         <canvas id="myCanvas" ></canvas>
         <div class="lyrics">
           <div class="show-lyrics" id="showLyrics"></div>
-          <textarea id="inputLyrics" style="background-image: url(src/images/paper.jpg);" ></textarea>
-          <audio
-            controls 
-            class="music"
-            id="01" 
-            controlsList="nodownload"
-            loop="true"
-            preload="none">
-            <source src="src/Audio/Sunset Rubdown - Random Spirit Lover/01 The Mending of the Gown.mp3" type="audio/mp3">
-          </audio>
+            <textarea id="inputLyrics" style="background-image: url(src/images/paper.jpg);" ></textarea>
+            <audio
+              id="0" 
+              class="music"
+              controlsList="nodownload"
+              loop="true"
+              preload="none"> 
+              <source src="src/Audio/Sunset Rubdown - Random Spirit Lover/01 The Mending of the Gown.mp3" type="audio/mp3">
+            </audio>
+            <audio
+              id="1" 
+              class="music"
+              controlsList="nodownload"
+              loop="true"
+              preload="none"> 
+              <source src="src/Audio/Sunset Rubdown - Random Spirit Lover/02 Magic vs. Midas.mp3" type="audio/mp3">
+            </audio>
+            <span id="pause"> Kill Sound </span>
+          </div>
         </div>
       </div>
-    </div>
-
-
-    <script src="./dist/main.js"></script>
-  </body>
-</html>
+      
+      
+      <script src="./dist/main.js"></script>
+    </body>
+    </html>
+    
+    <source id="3" src="src/Audio/Sunset Rubdown - Random Spirit Lover/03 Up on your Leopard, Upon the End of your Feral Days.mp3" type="audio/mp3">
+    <source id="4" src="src/Audio/Sunset Rubdown - Random Spirit Lover/04 The Courtesan has Sung.mp3" type="audio/mp3">

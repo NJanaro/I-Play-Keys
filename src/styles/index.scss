@@ -25,6 +25,8 @@ body {
 }
 
 .modal-content {
+    display:flex;
+    align-items: center;
     box-shadow:
         0 2.8px 2.2px rgba(0, 0, 0, 0.046),
         0 6.7px 5.3px rgba(0, 0, 0, 0.052),
@@ -71,8 +73,24 @@ p {
 }
 
 #start {
+    display:flex;
+    justify-content: center;
     font-weight: bold;
-    padding: 8px 28px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 8px 0px;
+    border: solid 2px rgb(109, 3, 3);
+    border-radius: 8px;
+    background-color: maroon;
+    transition: .15s;
+}
+
+#pause {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    padding: 12px 28px 8px;
     border: solid 2px rgb(109, 3, 3);
     border-radius: 8px;
     background-color: maroon;
