@@ -23,13 +23,29 @@ window.addEventListener('load', (e)=> {
   modal.style.display = "flex";
 })
 
-document.getElementById("start").addEventListener("click", () => {
+const start = document.getElementById("start");
+
+start.addEventListener("click", () => {
   starter();
   draw();
   modal.style.display = "none";
   audio.play();
 renderVerse(verseIdx);
-})
+});
+
+const stop = document.getElementById("pause");
+let pausePlay = true;
+stop.addEventListener("click", ()=>{
+  if (pausePlay){
+    stop.innerHTML="Start Sound";
+    audio.pause();
+    pausePlay = false;
+  } else {
+    stop.innerHTML="Kill Sound";
+    audio.play();
+    pausePlay = true;
+  };
+});
 
 let song = lyrics[songIdx];
 let verse = song.split("newLine\n");
