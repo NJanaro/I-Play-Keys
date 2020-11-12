@@ -33,9 +33,9 @@ And he wrote a book about men in the sky\n\
 He wrote a book about the smell of winter\n\
 Then two, a little less simple to decipher\n\
 newLine\n\
-Saying, “I am the water at the foot of the palms\n\
+Saying, 'I am the water at the foot of the palms\n\
 Oh, I'm sand and wind and a shitty mirage\n\
-But either way, I'm a man of many nations!”\n\
+But either way, I'm a man of many nations!'\n\
 newLine\n\
 Was it the mending of the gown\n\
 Or the running it around?\n\
@@ -134,7 +134,7 @@ newLine\n\
 And I follow the lead of the jackal to see where you are"
 
 export const t03 = 
-"You're the one who ran in the wild ‘cause you're the one the wild called\n\
+"You're the one who ran in the wild 'cause you're the one the wild called\n\
 And you're the one who followed the child to save the sun from how it falls\n\
 newLine\n\
 You're the one who had knives set aside for the throats of hunters\n\
@@ -173,16 +173,59 @@ Say goodbye to your feral days\n\
 Say-ay goodbye-aye-aye-aye-aye\n\
 newLine\n\
 Your highness is holding your chains\n\
-Your highness is holding your chains\n\
-Your highness is holding your chains\n\
-Your highness is holding your chains\n\
-Your highness is holding your chains\n\
-Your highness is holding your chains\n\
-Your highness is holding your chains\n\
 Your highness is holding your chains"
 
+export const t04 =
+"The courtesan has sung\n\
+And Nadia says the crowd's too young\n\
+And Amber says she hates guitar\n\
+newLine\n\
+The courtesan has sung\n\
+And Nadia says the crowd's too young\n\
+And Amber says she hates guitar\n\
+newLine\n\
+Think of the scene where a washed-up actor wipes the makeup off his wife and says\n\
+'Morticians must have took you for a whore.'\n\
+newLine\n\
+The courtesan has sung\n\
+And Nadia says the crowd's too young\n\
+And Amber says she hates guitar\n\
+newLine\n\
+The stranger finds you in your home he says\n\
+'Brother, your work's got no soul.' You say\n\
+'Brother, bite your tongue, it is my soul that you have won.'\n\
+newLine\n\
+The courtesan has sung\n\
+And Nadia says the crowd's too young\n\
+And Amber says she hates guitar\n\
+newLine\n\
+And when she showed him all her paintings he said\n\
+'Let's do something racy.' Took the bottle from his pocket, it was vodka, again\n\
+newLine\n\
+The courtesan has sung\n\
+And Nadia says the crowd's too young\n\
+And Amber says she hates guitar\n\
+newLine\n\
+Five actors have arrived, they are good looking\n\
+But they're hungry they start cooking\n\
+With the trash found on the safety of the stage\n\
+newLine\n\
+And you see the crowd is forming, but the winged things are swarming\n\
+Yelling, 'Stop this fucking poison,' but the deaf, they hear no warnings\n\
+newLine\n\
+Think of the scene where a washed-up actor wipes the makeup off his wife and says\n\
+'Morticians must have took you for a whore\n\
+newLine\n\
+Oh, morticians must have took you for a whore\n\
+Oh, love I'm sorry that they took you for a whore'\n\
+newLine\n\
+'And I am sorry if you took me for a whore\n\
+Oh, I am sorry if you took me for a whore\n\
+newLine\n\
+Oh, and you are sorry that you took me for a whore\n\
+Well, then I'm sorry that I took you for a mortician'";
 
-export const t04 = 
+export const t05 = 
 "Well I say it's just smoke\n\
 So you say it's the hair of ghosts\n\
 So I say it's the white hair of Poseidon\n\
@@ -229,3 +272,217 @@ So I say oh, I see now, it's just smoke\n\
 Oh I say oh, I see now, it's just smoke\n\
 Oh I say oh, I see now, it's just smoke"
 
+export const t06 =
+"I follow the trail you left in the snow\n\
+It took your footsteps and made them my own\n\
+One thousand and one, One thousand and two\n\
+Oh, the gravity of you\n\
+newLine\n\
+You gave me an idol, when you gave me these idle hands\n\
+And you twist up land, ‘til the snow turns to sand\n\
+And I can't find the trail back home"
+
+export const t07 =
+"Stallion, step away\n\
+Saddle up the width of an age\n\
+I'm good where I am, I am good where I am, stallion\n\
+newLine\n\
+Wrote off stray gold from the list I hold\n\
+And I wrote off all the gold from the list you hold\n\
+I'll be the grave with no name on the stone, stallion\n\
+newLine\n\
+And fight for your right to hate the night\n\
+Children sing like a choir with no taste for the wine\n\
+And the time winding down, when the chiding eye falls upon you, you\n\
+newLine\n\
+First fall of light on the counterfeit ring lightens other things, some unknown glittering\n\
+The balancing of rider and steed can't be upon you, you\n\
+newLine\n\
+Stallion, step away\n\
+Saddle up the width of an age\n\
+I'm good where I am, I am good where I am\n\
+newLine\n\
+Oh, my god where I am, oh my god where I am\n\
+And you, you have to flexing two muscles on the stage\n\
+newLine\n\
+Now, step away, step, step away, step away\n\
+Saddle up the width of an age\n\
+newLine\n\
+Wrote off the prospect of gold in my way\n\
+Stallion, step away"
+
+export const t08 =
+"I, I pushed off the pier\n\
+Infinity ran cold\n\
+And filled up my ears\n\
+newLine\n\
+There's the weapon you hold\n\
+There's the thing that you hold it to\n\
+And the thing you hold dear\n\
+newLine\n\
+Oh the speed of a year\n\
+It runs the wood dry\n\
+And water unclear\n\
+newLine\n\
+There's the thing you hold high\n\
+Then there's the thing that you hold it to\n\
+And the thing you hold dear\n\
+newLine\n\
+I will be an enemy to men seen in the light\n\
+Do you think it's all right? yes, I think it's all right! it's all right!\n\
+newLine\n\
+If you make the waves the sun makes the rays\n\
+The speed of the light can be trusted to prey\n\
+newLine\n\
+To prey on the fools that pushed off your pier\n\
+The whirling of pools runs clear\n\
+newLine\n\
+So I'll be out till the shimmering dies\n\
+I said I'll be out till the shimmering dies\n\
+newLine\n\
+It's the ringing of the predatory nature of the sky\n\
+And the ringing sound it makes when it's burning out your eyes\n\
+It's all right, it is all right!\n\
+newLine\n\
+It's the speed of the light\n\
+It's the speed of a year\n\
+It's the weapon you hold\n\
+And the thing you hold dear\n\
+newLine\n\
+Oh my dear, oh my dear\n\
+It's infinity's time to shine out here\n\
+newLine\n\
+If you make the waves the sun makes the rays\n\
+The speed of the light can be trusted to prey \n\
+To prey on the fools that pushed off your pier\n\
+The whirling of pools runs clear\n\
+newLine\n\
+The rocking of boats and the making of mirrors\n\
+The whirling of pools running clear\n\
+newLine\n\
+I hear them say, 'ut the weapon away'\n\
+It's the thing you know and they're taking it away\n\
+I know, but I'll find a way I'll find a way to let the dear thing go\n\
+newLine\n\
+If you make the waves the sun makes the rays\n\
+The speed of the light can be trusted to prey\n\
+To prey on the fools that pushed off your pier\n\
+The whirling of pools runs clear\n\
+newLine\n\
+The rocking of boats and the making off mirrors\n\
+The whirling of pools running clear"
+
+export const t09 = 
+"I am embracing the cold rushing in like ice to a diamond\n\
+It's a new kind of rough you can find me in\n\
+newLine\n\
+When the sail starts flapping in the wind\n\
+I say, 'Cool, that looks cool, now do you think the second movement has too many violins?'\n\
+newLine\n\
+Don't get too close, you'll detect in the west coast air in my chest and the way I hold it in there\n\
+newLine\n\
+It's the taming of the hands that came back to life\n\
+When she synchronized swam on the ice in '03\n\
+Oh, but enough about me\n\
+newLine\n\
+Will you live in the physical world?\n\
+Will you live in the physical world?\n\
+newLine\n\
+And more explosions make debris and catching it kind of suits you well, it doesn't suit me\n\
+newLine\n\
+She said, 'My sails are flapping in the wind' I said, 'Can I use that in a song?'\n\
+She said, 'I mean the end begins' I said, 'I know, can I use that too?'\n\
+newLine\n\
+Will you live, will you live in the physical world?\n\
+Will you live, will you live in the physical world?\n\
+newLine\n\
+With the sun setting low and the shadows unfurled?\n\
+Can you live with the way they make you look unreal?\n\
+newLine\n\
+Will you live, will you live in the physical world?\n\
+Will you live, will you live in the physical world?\n\
+newLine\n\
+With the sun setting low and the shadows unfurled?\n\
+Can you live with the way they make you look unreal?"
+
+export const t10 =
+"How you gonna sing a song that runs\n\
+From the mouth of where the singing comes\n\
+From the mouth of where the song is sung\n\
+newLine\n\
+Do you call a setting sun a sun rising?\n\
+How you gonna get the soil and the glory\n\
+When you want to be a harvester of light\n\
+But the soil only turns under the moon's shitty story?\n\
+newLine\n\
+There may be churches burning down next year\n\
+If I'm a city then my citizens will pass no pails along\n\
+There may be temples of temptation to take refuge in, my dear\n\
+newLine\n\
+If I'm a city then my citizens will cast a vote\n\
+As to where you pray vs. what you're praying for\n\
+And what you love vs. what you bow before\n\
+And where you beg and what you're begging for"
+
+export const t11 = 
+"You gotta memorize all the lines, and\n\
+Brother Thespian, you'll be fine\n\
+newLine\n\
+You gotta define your breath in beats\n\
+With a graduation pen, use mine\n\
+newLine\n\
+Stage left, enter Maggie, looking hurried\n\
+She has a parcel in her arms\n\
+newLine\n\
+Are you the leopard, or a virgin\n\
+Or the child in a grown man's beard\n\
+newLine\n\
+Worn out of place and hanging off his face\n\
+By the time the audience cheered?\n\
+newLine\n\
+And you were feeling pretty cocky\n\
+On the day you became an actor\n\
+newLine\n\
+I know the thing I shouldn't say\n\
+So I'll leave it at this:\n\
+I hope you get what you're after\n\
+newLine\n\
+And if when you're out you see the hundredth rose\n\
+Fall from the sky\n\
+newLine\n\
+Brother, stick that thing in the ground and\n\
+Say a heartfelt prayer for your safe arrival\n\
+newLine\n\
+I'd like to think that the actors never banded\n\
+I'd like to throw this trumpet down and go empty handed\n\
+newLine\n\
+The part of the virgin has been taken\n\
+So let me throw this trumpet down and go empty handed\n\
+If you're the virgin\n\
+Then I'm the stand-in\n\
+newLine\n\
+I'd like to think the actors never banded\n\
+I'd like to throw this trumpet down and go empty handed"
+
+export const t12 = 
+"There's a child heart, in the child\n\
+There's a child heart, in the child\n\
+There's a child heart, living wild, oh\n\
+La-la-la-la fire makes it go\n\
+newLine\n\
+And you were pretty, before you knew\n\
+And you were pretty, before you knew\n\
+And you were pretty, before you knew it all\n\
+La-la-la-la now fire makes you go\n\
+newLine\n\
+All a diamond is, is good timing\n\
+All a diamond is, is good timing\n\
+All good diamonds are uncut diamonds, oh\n\
+La-la-la-la fire makes them so cold to the eye\n\
+newLine\n\
+Who lets that take place, and where'd you learn to stage dive with such grace?\n\
+Indescribable face, what do you stay beautiful for?\n\
+And don't you worry about the floor\n\
+newLine\n\
+Why so many, many, many, many, many violins?\n\
+Why so many, many, many, many, many violins?"

@@ -11,12 +11,19 @@ const lyrics =
     Lyrics.t01,
     Lyrics.t02,
     Lyrics.t03,
-    Lyrics.t04
+    Lyrics.t04,
+    Lyrics.t05,
+    Lyrics.t06,
+    Lyrics.t07,
+    Lyrics.t08,
+    Lyrics.t09,
+    Lyrics.t10,
+    Lyrics.t11,
+    Lyrics.t12
   ];
 
-let songIdx = Math.floor(Math.random() * Math.floor(2));
+let songIdx = Math.floor(Math.random() * Math.floor(12));
 const audio = document.getElementById(songIdx);
-console.log(songIdx);
 const modal = document.getElementById("modalBody");
 
 window.addEventListener('load', (e)=> {
@@ -70,14 +77,12 @@ inputLyricsEle.addEventListener("input", ()=>{
       if (inputChar == null){
         lyricSpan.className = "neither";
         correct = false;
-      }else if (inputChar == lyricSpan.innerText){ //if statement checks imput to lyrics and changes classname and grow command var
+      }else if (inputChar === lyricSpan.innerText){ //if statement checks imput to lyrics and changes classname and grow command var
         lyricSpan.className = "correct";
         if (lastCorrect === inputValue.length - 1){
           lastCorrect++;
           growth = true;
         }
-        console.log(lastCorrect);
-        console.log(inputValue.length - 1);
       }else{
         lyricSpan.className = "incorrect";
         correct = false;
@@ -97,18 +102,11 @@ inputLyricsEle.addEventListener("input", ()=>{
     }
 })
 
-
-
-const myShrink = ()=>{
-  shrink();
-}
 const myGrow = ()=>{
   grow();
 }
 
-
 const renderVerse = (v)=>{
-  // console.log(v);
   lyricShowEle.innerHTML = ""; //starts our lyric showing nothing (we will append to it in this function individual span elements that can have individual classNames)
   
 

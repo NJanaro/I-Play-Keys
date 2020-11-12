@@ -34,12 +34,10 @@ export const draw = ()=>{
     const images = [pianoManLeft, pianoManRight, piano, stage];
     
     let imagesLoaded = 0;
-    // console.log(imagesLoaded);
+   
     for (let i = 0; i < images.length; i++) {
         images[i].onload = function(){
             imagesLoaded++;
-            console.log(imagesLoaded);
-            console.log(images.length);
             if(imagesLoaded == images.length)unpaint();
         }
         
