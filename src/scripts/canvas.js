@@ -1,13 +1,8 @@
-
 import "../images/piano.png";
 import "../images/stage.png";
 import "../images/pianoManLeft.png";
 import "../images/pianoManRight.png";
 
-
-// import "../styles/00-canvas.scss";
-
-// let pianoMan = document.getElementById("piano-man");
 let start = false;
 let r = 400;
 let right = true;
