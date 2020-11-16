@@ -134,14 +134,20 @@ newLine\n\
 And I follow the lead of the jackal to see where you are"
 
 export const t03 = 
-"You're the one who ran in the wild 'cause you're the one the wild called\n\
-And you're the one who followed the child to save the sun from how it falls\n\
+"You're the one who ran in the wild\n\
+'cause you're the one the wild called\n\
+And you're the one who followed the child\n\
+to save the sun from how it falls\n\
 newLine\n\
-You're the one who had knives set aside for the throats of hunters\n\
-But they tricked you with a trinket and a name\n\
+You're the one who had knives\n\
+set aside for the throats of hunters\n\
+But they tricked you\n\
+with a trinket and a name\n\
 newLine\n\
-And I'm the one who sat at your capture and I'm the one who whispered low\n\
-That's the one who followed the child to save the son and look it's starting to snow!\n\
+And I'm the one who sat at your capture\n\
+and I'm the one who whispered low\n\
+That's the one who followed the child to save the son\n\
+and look it's starting to snow!\n\
 newLine\n\
 You're the one who's riding around on a leopard\n\
 You're the one who's throwing his shit in the air!\n\
@@ -150,27 +156,37 @@ You're the one whose wild hide will weather\n\
 In the weathering days to a leather\n\
 Made for princes to lay their princely heads of hair!\n\
 newLine\n\
-Upon the end of your feral days, upon the end of your feral days\n\
+Upon the end of your feral days,\n\
+upon the end of your feral days\n\
 Upon the end of your feral days oh-oh-oh-oh-oooooooooh\n\
 newLine\n\
-You're the one who ran in the wild a virgin to a name\n\
+You're the one who ran in the wild\n\
+a virgin to a name\n\
 And you're the one who lived off a forsaken land\n\
+newLine\n\
 I'm the one who sat at your capture\n\
 And let the snow fall on this whispering rapture\n\
 And you're the one who's kissing your captor's hands\n\
 newLine\n\
-Well shit, I know we're all growing old but where there's a will, there is a way, so way to go\n\
-Say goodbye to your feral days, say goodbye to your feral days, say-ay goodbye-aye-aye-aye-aaaaaye\n\
+Well shit, I know we're all growing old\n\
+but where there's a will, there is a way,\n\
+so way to go\n\
 newLine\n\
-Cause you're the one who's riding around on a leopard ba-da-dum\n\
+Say goodbye to your feral days,\n\
+say goodbye to your feral days,\n\
+say-ay goodbye-aye-aye-aye-aaaaaye\n\
+newLine\n\
+Cause you're the one who's riding around on a leopard\n\
 You're the one who's throwing dead birds in the air\n\
+newLine\n\
 And you're the one whose wild hide will weather\n\
 In the weathering days to a leather\n\
-Made soft so princes can lay down their princely white heads of hair!\n\
+Made soft\n\
+so princes can lay down their princely white heads of hair!\n\
 newLine\n\
 So say goodbye\n\
 Say goodbye to your feral days\n\
-Say-ay goodbye-aye-aye-aye-aye\n\
+Say-ay goodbye\n\
 newLine\n\
 Your highness is holding your chains\n\
 Your highness is holding your chains"
@@ -184,7 +200,8 @@ The courtesan has sung\n\
 And Nadia says the crowd's too young\n\
 And Amber says she hates guitar\n\
 newLine\n\
-Think of the scene where a washed-up actor wipes the makeup off his wife and says\n\
+Think of the scene where a washed-up actor\n\
+wipes the makeup off his wife and says\n\
 'Morticians must have took you for a whore.'\n\
 newLine\n\
 The courtesan has sung\n\
@@ -193,14 +210,16 @@ And Amber says she hates guitar\n\
 newLine\n\
 The stranger finds you in your home he says\n\
 'Brother, your work's got no soul.' You say\n\
-'Brother, bite your tongue, it is my soul that you have won.'\n\
+'Brother, bite your tongue,\n\
+it is my soul that you have won.'\n\
 newLine\n\
 The courtesan has sung\n\
 And Nadia says the crowd's too young\n\
 And Amber says she hates guitar\n\
 newLine\n\
 And when she showed him all her paintings he said\n\
-'Let's do something racy.' Took the bottle from his pocket, it was vodka, again\n\
+'Let's do something racy.'\n\
+Took the bottle from his pocket, it was vodka, again\n\
 newLine\n\
 The courtesan has sung\n\
 And Nadia says the crowd's too young\n\
@@ -210,10 +229,13 @@ Five actors have arrived, they are good looking\n\
 But they're hungry they start cooking\n\
 With the trash found on the safety of the stage\n\
 newLine\n\
-And you see the crowd is forming, but the winged things are swarming\n\
-Yelling, 'Stop this fucking poison,' but the deaf, they hear no warnings\n\
+And you see the crowd is forming,\n\
+but the winged things are swarming\n\
+Yelling, 'Stop this fucking poison,'\n\
+but the deaf, they hear no warnings\n\
 newLine\n\
-Think of the scene where a washed-up actor wipes the makeup off his wife and says\n\
+Think of the scene where a washed-up actor\n\
+ wipes the makeup off his wife and says\n\
 'Morticians must have took you for a whore\n\
 newLine\n\
 Oh, morticians must have took you for a whore\n\
@@ -250,7 +272,8 @@ But it's right cause chaos is yours and it's mine\n\
 And chaos is luck and luck: love and love: blind\n\
 newLine\n\
 The pattern of flight is chaotic and blind\n\
-But it's right cause chaos is yours and chaos is mine, mine, mine\n\
+But it's right\n\
+cause chaos is yours and chaos is mine, mine, mine\n\
 And chaos is love and they say 'love is blind'\n\
 newLine\n\
 But they're subject to hating us\n\
@@ -293,9 +316,11 @@ I'll be the grave with no name on the stone, stallion\n\
 newLine\n\
 And fight for your right to hate the night\n\
 Children sing like a choir with no taste for the wine\n\
-And the time winding down, when the chiding eye falls upon you, you\n\
+And the time winding down,\n\
+when the chiding eye falls upon you, you\n\
 newLine\n\
-First fall of light on the counterfeit ring lightens other things, some unknown glittering\n\
+First fall of light on the counterfeit ring\n\
+lightens other things, some unknown glittering\n\
 The balancing of rider and steed can't be upon you, you\n\
 newLine\n\
 Stallion, step away\n\
@@ -329,7 +354,8 @@ Then there's the thing that you hold it to\n\
 And the thing you hold dear\n\
 newLine\n\
 I will be an enemy to men seen in the light\n\
-Do you think it's all right? yes, I think it's all right! it's all right!\n\
+Do you think it's all right?\n\
+yes, I think it's all right! it's all right!\n\
 newLine\n\
 If you make the waves the sun makes the rays\n\
 The speed of the light can be trusted to prey\n\
@@ -341,7 +367,8 @@ So I'll be out till the shimmering dies\n\
 I said I'll be out till the shimmering dies\n\
 newLine\n\
 It's the ringing of the predatory nature of the sky\n\
-And the ringing sound it makes when it's burning out your eyes\n\
+And the ringing sound it makes\n\
+when it's burning out your eyes\n\
 It's all right, it is all right!\n\
 newLine\n\
 It's the speed of the light\n\
@@ -362,7 +389,8 @@ The whirling of pools running clear\n\
 newLine\n\
 I hear them say, 'ut the weapon away'\n\
 It's the thing you know and they're taking it away\n\
-I know, but I'll find a way I'll find a way to let the dear thing go\n\
+I know, but I'll find a way\n\
+I'll find a way to let the dear thing go\n\
 newLine\n\
 If you make the waves the sun makes the rays\n\
 The speed of the light can be trusted to prey\n\
@@ -377,9 +405,12 @@ export const t09 =
 It's a new kind of rough you can find me in\n\
 newLine\n\
 When the sail starts flapping in the wind\n\
-I say, 'Cool, that looks cool, now do you think the second movement has too many violins?'\n\
+I say, 'Cool, that looks cool,\n\
+now do you think the second movement has too many violins?'\n\
 newLine\n\
-Don't get too close, you'll detect in the west coast air in my chest and the way I hold it in there\n\
+Don't get too close,\n\
+you'll detect in the west coast air\n\
+in my chest and the way I hold it in there\n\
 newLine\n\
 It's the taming of the hands that came back to life\n\
 When she synchronized swam on the ice in '03\n\
@@ -388,10 +419,14 @@ newLine\n\
 Will you live in the physical world?\n\
 Will you live in the physical world?\n\
 newLine\n\
-And more explosions make debris and catching it kind of suits you well, it doesn't suit me\n\
+And more explosions make debris\n\
+and catching it kind of suits you\n\
+well, it doesn't suit me\n\
 newLine\n\
-She said, 'My sails are flapping in the wind' I said, 'Can I use that in a song?'\n\
-She said, 'I mean the end begins' I said, 'I know, can I use that too?'\n\
+She said, 'My sails are flapping in the wind'\n\
+I said, 'Can I use that in a song?'\n\
+She said, 'I mean the end begins'\n\
+I said, 'I know, can I use that too?'\n\
 newLine\n\
 Will you live, will you live in the physical world?\n\
 Will you live, will you live in the physical world?\n\
@@ -480,7 +515,8 @@ All a diamond is, is good timing\n\
 All good diamonds are uncut diamonds, oh\n\
 La-la-la-la fire makes them so cold to the eye\n\
 newLine\n\
-Who lets that take place, and where'd you learn to stage dive with such grace?\n\
+Who lets that take place,\n\
+and where'd you learn to stage dive with such grace?\n\
 Indescribable face, what do you stay beautiful for?\n\
 And don't you worry about the floor\n\
 newLine\n\

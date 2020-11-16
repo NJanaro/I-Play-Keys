@@ -22,24 +22,23 @@ const lyrics =
     Lyrics.t12
   ];
 
-let songIdx = Math.floor(Math.random() * Math.floor(12));
-const audio = document.getElementById(songIdx);
-const modal = document.getElementById("modalBody");
+// let songIdx = Math.floor(Math.random() * Math.floor(12));
+let songIdx = 2;
+export const audio = document.getElementById(songIdx);
+const modalStart = document.getElementById("modalBodyStart");
 
 window.addEventListener('load', (e)=> {
-  modal.style.display = "flex";
+  modalStart.style.display = "flex";
 })
 
 const start = document.getElementById("start");
-
 start.addEventListener("click", () => {
   starter();
   draw();
-  modal.style.display = "none";
+  modalStart.style.display = "none";
   audio.play();
 renderVerse(verseIdx);
 });
-
 const stop = document.getElementById("pause");
 let pausePlay = true;
 stop.addEventListener("click", ()=>{

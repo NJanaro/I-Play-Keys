@@ -2,10 +2,12 @@ import "../images/piano.png";
 import "../images/stage.png";
 import "../images/pianoManLeft.png";
 import "../images/pianoManRight.png";
+import {audio} from "../index";
 
 let start = false;
 let r = 400;
 let right = true;
+const modalLose = document.getElementById("modalBodyLose");
 const pianoManLeft = new Image();
 pianoManLeft.src="src/images/pianoManLeft.png";
 
@@ -41,9 +43,9 @@ export const draw = ()=>{
     
     
     function unpaint(){      
-        if(r <= 0) {
-            if(!alert("you lose")) window.location.reload();
-        }
+        // if(r <= 0) {
+        //     if(!alert("you lose")) window.location.reload();
+        // }
         ctx.beginPath();
         ctx.save();
         ctx.fillRect(0,0,1200, 1100);
@@ -64,10 +66,11 @@ export const draw = ()=>{
             ctx.drawImage(pianoManLeft,565.5,402);
         }
         ctx.restore();
-        r -= .25; 
+        r -= 2; 
         if(r <= 64) {
             r = 400;
-            if(!alert("you lose")) window.location.reload();
+            modalLose.style.display = "flex";
+            audio.pause();
         }else if (start){  
             requestAnimationFrame(unpaint);
         }

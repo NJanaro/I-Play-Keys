@@ -11,19 +11,28 @@
   <body style="background-image: url(src/images/backdrop.jpg);">
     
     
-    <div id="modalBody" class="modal">
+    <div id="modalBodyStart" class="modal">
       <div class="modal-content">
         <div class="description">
           <h1>I Play Keys</h1>
           <h2>Ever wish you could play piano and sing like Spencer Krug?</h2> 
           <h3>Don't we all...</h3>
           <p>Type the lyrics on the screen to keep the lights on. Don't let the darkness consume you! Line breaks count and you must correct your mistakes to continue.</p>
-          <span id="start">Start</span>
+          <span class="start" id="start">Start</span>
         </div>
       </div>
-      
     </div>
     
+    <div id="modalBodyLose" class="modal">
+      <div class="modal-content">
+        <div class="description">
+          <h1>OH NO!</h1>
+          <h2>Give it another try?</h2> 
+          <span class="start restart">Start</span>
+        </div>
+      </div>
+    </div>
+
     <div class="main-container">
       <div className="link-box">
         <a
