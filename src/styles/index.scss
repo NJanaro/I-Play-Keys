@@ -19,6 +19,12 @@ body {
     align-items: center;
 }
 
+#modalBodyWin{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
 .modal {
     position:fixed;
     z-index: 4;

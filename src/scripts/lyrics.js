@@ -522,3 +522,9 @@ And don't you worry about the floor\n\
 newLine\n\
 Why so many, many, many, many, many violins?\n\
 Why so many, many, many, many, many violins?"
+
+export const tTest =
+"asdf\n\
+asdf\n\
+newLine\n\
+asdf"

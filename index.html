@@ -6,29 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./dist/main.css" />
     <title>I Play Keys</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Special+Elite&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body style="background-image: url(src/images/backdrop.jpg);">
-    
-    
+  <body style="background-image: url(src/images/backdrop.jpg)">
     <div id="modalBodyStart" class="modal">
       <div class="modal-content">
         <div class="description">
           <h1>I Play Keys</h1>
-          <h2>Ever wish you could play piano and sing like Spencer Krug?</h2> 
+          <h2>Ever wish you could play piano and sing like Spencer Krug?</h2>
           <h3>Don't we all...</h3>
-          <p>Type the lyrics on the screen to keep the lights on. Don't let the darkness consume you! Line breaks count and you must correct your mistakes to continue.</p>
+          <p>
+            Type the lyrics on the screen to keep the lights on. Don't let the
+            darkness consume you! Line breaks count and you must correct your
+            mistakes to continue.
+          </p>
           <span class="start" id="start">Start</span>
         </div>
       </div>
     </div>
-    
+
     <div id="modalBodyLose" class="modal">
       <div class="modal-content">
         <div class="description">
           <h1>OH NO!</h1>
-          <h2>Give it another try?</h2> 
-          <span class="start restart">Start</span>
+          <h2>Give it another try?</h2>
+          <span class="start restart">Try Again</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="modalBodyWin" class="modal">
+      <div class="modal-content">
+        <div class="description">
+          <h1>You Did It!</h1>
+          <h2>Try a different song?</h2>
+          <span class="start restart">New Song</span>
         </div>
       </div>
     </div>
@@ -38,129 +53,179 @@
         <a
           class="icon"
           href="https://github.com/NJanaro"
-          style="background-image: url(src/images/GitHub-Mark-Light-64px.png);"
+          style="background-image: url(src/images/GitHub-Mark-Light-64px.png)"
         >
         </a>
         <a
           class="icon"
           href="mailto:nick.janaro@gmail.com?Subject=Great%20Site!"
-          style="background-image: url(src/images/email.png);"
+          style="background-image: url(src/images/email.png)"
         >
         </a>
         <a
           class="icon"
           href="https://linkedin.com/in/nick-janaro"
-          style="background-image: url(src/images/linkedin.png);" 
+          style="background-image: url(src/images/linkedin.png)"
         >
         </a>
       </div>
       <div class="canvas-box">
-        <canvas id="myCanvas" ></canvas>
+        <canvas id="myCanvas"></canvas>
         <div class="lyrics">
           <div class="show-lyrics" id="showLyrics"></div>
-            <textarea id="inputLyrics" style="background-image: url(src/images/paper.jpg);" ></textarea>
-            <audio
-              id="0" 
-              class="music"
-              controlsList="nodownload"
-              loop="true"
-              preload="none"> 
-              <source src="src/Audio/Sunset Rubdown - Random Spirit Lover/01 The Mending of the Gown.mp3" type="audio/mp3">
-            </audio>
-            <audio
-              id="1" 
-              class="music"
-              controlsList="nodownload"
-              loop="true"
-              preload="none"> 
-              <source src="src/Audio/Sunset Rubdown - Random Spirit Lover/02 Magic vs. Midas.mp3" type="audio/mp3">
-            </audio>
-            <audio
-              id="2" 
-              class="music"
-              controlsList="nodownload"
-              loop="true"
-              preload="none"> 
-              <source src="src/Audio/Sunset Rubdown - Random Spirit Lover/03 Up on your Leopard, Upon the End of your Feral Days.mp3"  type="audio/mp3">
-            </audio>
-            <audio
-              id="3" 
-              class="music"
-              controlsList="nodownload"
-              loop="true"
-              preload="none"> 
-              <source src="src/Audio/Sunset Rubdown - Random Spirit Lover/04 The Courtesan has Sung.mp3" type="audio/mp3">
-            </audio>
-            <audio
-              id="4" 
-              class="music"
-              controlsList="nodownload"
-              loop="true"
-              preload="none"> 
-              <source src="src/Audio/Sunset Rubdown - Random Spirit Lover/05 Winged_Wicked Things.mp3" type="audio/mp3">
-            </audio>
-            <audio
-              id="5" 
-              class="music"
-              controlsList="nodownload"
-              loop="true"
-              preload="none"> 
-              <source src="src/Audio/Sunset Rubdown - Random Spirit Lover/06 Colt Stands Up, Grows Horns.mp3" type="audio/mp3">
-            </audio>
-            <audio
-              id="6" 
-              class="music"
-              controlsList="nodownload"
-              loop="true"
-              preload="none"> 
-              <source src="src/Audio/Sunset Rubdown - Random Spirit Lover/07 Stallion.mp3" type="audio/mp3">
-            </audio>
-            <audio
-              id="7" 
-              class="music"
-              controlsList="nodownload"
-              loop="true"
-              preload="none"> 
-              <source src="src/Audio/Sunset Rubdown - Random Spirit Lover/08 For the Pier (and dead shimmering).mp3" type="audio/mp3">
-            </audio>
-            <audio
-              id="8" 
-              class="music"
-              controlsList="nodownload"
-              loop="true"
-              preload="none"> 
-              <source src="src/Audio/Sunset Rubdown - Random Spirit Lover/09 The Taming of the Hands that Came Back to Life.mp3" type="audio/mp3">
-            </audio>
-            <audio
-              id="9" 
-              class="music"
-              controlsList="nodownload"
-              loop="true"
-              preload="none"> 
-              <source src="src/Audio/Sunset Rubdown - Random Spirit Lover/10 Setting vs. Rising.mp3" type="audio/mp3">
-            </audio>
-            <audio
-              id="10" 
-              class="music"
-              controlsList="nodownload"
-              loop="true"
-              preload="none"> 
-              <source src="src/Audio/Sunset Rubdown - Random Spirit Lover/11 Trumpet, Trumpet, Toot! Toot!.mp3" type="audio/mp3">
-            </audio>
-            <audio
-              id="11" 
-              class="music"
-              controlsList="nodownload"
-              loop="true"
-              preload="none"> 
-              <source src="src/Audio/Sunset Rubdown - Random Spirit Lover/12 Child-Heart Losers.mp3" type="audio/mp3">
-            </audio>                                                                                                            
-            <span id="pause"> Kill Sound </span>
-          </div>
+          <textarea
+            id="inputLyrics"
+            style="background-image: url(src/images/paper.jpg)"
+          ></textarea>
+          <audio
+            id="0"
+            class="music"
+            controlsList="nodownload"
+            loop="true"
+            preload="none"
+          >
+            <source
+              src="src/Audio/Sunset Rubdown - Random Spirit Lover/01 The Mending of the Gown.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+          <audio
+            id="1"
+            class="music"
+            controlsList="nodownload"
+            loop="true"
+            preload="none"
+          >
+            <source
+              src="src/Audio/Sunset Rubdown - Random Spirit Lover/02 Magic vs. Midas.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+          <audio
+            id="2"
+            class="music"
+            controlsList="nodownload"
+            loop="true"
+            preload="none"
+          >
+            <source
+              src="src/Audio/Sunset Rubdown - Random Spirit Lover/03 Up on your Leopard, Upon the End of your Feral Days.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+          <audio
+            id="3"
+            class="music"
+            controlsList="nodownload"
+            loop="true"
+            preload="none"
+          >
+            <source
+              src="src/Audio/Sunset Rubdown - Random Spirit Lover/04 The Courtesan has Sung.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+          <audio
+            id="4"
+            class="music"
+            controlsList="nodownload"
+            loop="true"
+            preload="none"
+          >
+            <source
+              src="src/Audio/Sunset Rubdown - Random Spirit Lover/05 Winged_Wicked Things.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+          <audio
+            id="5"
+            class="music"
+            controlsList="nodownload"
+            loop="true"
+            preload="none"
+          >
+            <source
+              src="src/Audio/Sunset Rubdown - Random Spirit Lover/06 Colt Stands Up, Grows Horns.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+          <audio
+            id="6"
+            class="music"
+            controlsList="nodownload"
+            loop="true"
+            preload="none"
+          >
+            <source
+              src="src/Audio/Sunset Rubdown - Random Spirit Lover/07 Stallion.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+          <audio
+            id="7"
+            class="music"
+            controlsList="nodownload"
+            loop="true"
+            preload="none"
+          >
+            <source
+              src="src/Audio/Sunset Rubdown - Random Spirit Lover/08 For the Pier (and dead shimmering).mp3"
+              type="audio/mp3"
+            />
+          </audio>
+          <audio
+            id="8"
+            class="music"
+            controlsList="nodownload"
+            loop="true"
+            preload="none"
+          >
+            <source
+              src="src/Audio/Sunset Rubdown - Random Spirit Lover/09 The Taming of the Hands that Came Back to Life.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+          <audio
+            id="9"
+            class="music"
+            controlsList="nodownload"
+            loop="true"
+            preload="none"
+          >
+            <source
+              src="src/Audio/Sunset Rubdown - Random Spirit Lover/10 Setting vs. Rising.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+          <audio
+            id="10"
+            class="music"
+            controlsList="nodownload"
+            loop="true"
+            preload="none"
+          >
+            <source
+              src="src/Audio/Sunset Rubdown - Random Spirit Lover/11 Trumpet, Trumpet, Toot! Toot!.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+          <audio
+            id="11"
+            class="music"
+            controlsList="nodownload"
+            loop="true"
+            preload="none"
+          >
+            <source
+              src="src/Audio/Sunset Rubdown - Random Spirit Lover/12 Child-Heart Losers.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+          <span id="pause"> Kill Sound </span>
         </div>
       </div>
-      
-      
-      <script src="./dist/main.js"></script>
-    </body>
-    </html>
+    </div>
+
+    <script src="./dist/main.js"></script>
+  </body>
+</html>
