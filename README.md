@@ -4,9 +4,9 @@
 
 ## I Play Keys is a fun typing game for fans of Sunset Rubdown. Play along to the songs of Random Spirit Lover and try to keep the darkness from consuming you. 
 
-Each song's difficulty is based on the tempo of that song which is randomly generated. The song plays in the background as you type. You have the option to mute the song if you wish.
+A random track from Sunset Rubdown's "Random Spirit Lover" plays while the lyrics are presented for you to type. You have the option to mute the song if you wish.
 
-Players scores are based on typing speed and accuracy which is compared to your previous attempt after every round to show your progress. 
+The animated darkness circles in on your character and you must keep the lyics flowing to keep the darkness at bay. There is no room for mistakes, so be sure to correct your errors or the circle will continue to close on you.
 
 ### Technologies used:
 1. Canvas used to animate closing darkness and piano man animations
