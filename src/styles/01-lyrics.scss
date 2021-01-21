@@ -65,3 +65,16 @@ textarea {
 #1 {
     display: none;
 }
+
+.instructions {
+    
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.correctMistakes {
+    font-size: 24px;
+    color: yellow;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
