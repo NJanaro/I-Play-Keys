@@ -10,6 +10,15 @@ import {
   draw,
 } from "./scripts/canvas";
 
+const zoom = ()=>{
+            document.body.style.zoom = "80%" 
+        }
+
+      if (screen.width < 1300) {
+          zoom();
+      }
+      
+
 const lyrics = [
   Lyrics.t01,
   Lyrics.t02,
