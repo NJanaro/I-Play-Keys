@@ -14,7 +14,7 @@ const zoom = ()=>{
             document.body.style.zoom = "80%" 
         }
 
-      if (screen.width < 1300) {
+      if (screen.width < 1600) {
           zoom();
       }
       
